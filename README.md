@@ -4,6 +4,10 @@
 JumpingGS: Level-jump 3D Gaussian Representation for Delicate Textures in Aerial Large-scale Scene Rendering
 ![figure1](https://github.com/hoodpy/JumpingGS/blob/main/static/image0.png)
 
+## Source data, code, trained model
+
+## Set up
+
 ## Comparison in Mill-19 scenes
 ![figure2](https://github.com/hoodpy/JumpingGS/blob/main/static/image1.png)
 
