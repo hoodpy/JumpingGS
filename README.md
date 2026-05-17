@@ -9,6 +9,30 @@ JumpingGS: Level-jump 3D Gaussian Representation for Delicate Textures in Aerial
 
 ## Set up
 
+require cuda 11.8
+
+    cd v32
+    conda create -n jumpinggs python==3.11.7
+    conda activate jumpinggs
+    python -m pip install --upgrade pip
+    pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+    pip install submodules/diff-gaussian-rasterization --no-build-isolation
+    pip install submodules/simple-knn --no-build-isolation
+    pip install ConfigArgParse
+    pip install einops
+    pip install matplotlib
+    pip install open3d
+    pip install opencv-python
+    pip install plyfile
+    pip install numpy==1.26.0
+    pip install scipy
+    pip install tensorboardX
+    pip install torch_scatter
+    pip install tqdm
+    pip install scikit-image
+    pip install scikit-learn
+    pip install lpips
+
 ## Comparison in Mill-19 scenes
 ![figure2](https://github.com/hoodpy/JumpingGS/blob/main/static/image1.png)
 
