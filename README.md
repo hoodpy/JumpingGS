@@ -7,6 +7,18 @@ JumpingGS: Level-jump 3D Gaussian Representation for Delicate Textures in Aerial
 
 ## Source data, code, trained model
 
+If you require the data, code, and trained model (44GB in total), please contact me via email: jiongming@whu.edu.cn
+
+All data is available for free use. Please indicate your organization or college in your email.
+
+The six aerial scenes in the paper were retrained to obtain the models we uploaded. Performance metrics are summarized below (MatrixCity metrics will be added later).
+
+| Scene  | PSNR | SSIM | LPIPS | Scene  | PSNR | SSIM | LPIPS |
+| ------ | ---- | ---- | ----- | ------ | ---- | ---- | ----- |
+| Building | 26.60 | 0.8522 | 0.0983 | Rubble | 29.44 | 0.8592 | 0.1086 |
+| Residence | 26.16 | 0.8576 | 0.1181 | Sciart | 29.96 | 0.9030 | 0.0931 |
+| Campus | 26.72 | 0.8214 | 0.1646 | Matrixcity | xxx | xxx | xxx |
+
 ## Set up
 
 require cuda 11.8
