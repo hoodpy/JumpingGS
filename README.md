@@ -36,7 +36,6 @@ require cuda 11.8
     pip install open3d
     pip install opencv-python
     pip install plyfile
-    pip install numpy==1.26.0
     pip install scipy
     pip install tensorboardX
     pip install torch_scatter
@@ -44,6 +43,7 @@ require cuda 11.8
     pip install scikit-image
     pip install scikit-learn
     pip install lpips
+    pip install numpy==1.26.0
 
 ## Comparison in Mill-19 scenes
 ![figure2](https://github.com/hoodpy/JumpingGS/blob/main/static/image1.png)
