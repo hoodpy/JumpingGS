@@ -7,7 +7,7 @@ JumpingGS: Level-jump 3D Gaussian Representation for Delicate Textures in Aerial
 
 ## Source data, code, trained model
 
-If you require the data, code, and trained model (44GB in total), please contact me via email: jiongming@whu.edu.cn
+If you require the data, code, and trained model (56GB in total), please contact me via email: jiongming@whu.edu.cn
 
 All data is available for free use. Please indicate your organization or college in your email. The compressed file "large_scale_undistorted_photos.zip" needs to be unzipped and placed in v32/data.
 
